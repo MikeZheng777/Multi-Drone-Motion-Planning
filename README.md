@@ -29,8 +29,12 @@ python3 gym_pybullet_drones/run/plan_and_control_multi_pp.py --debug True --relo
 ### Video Demo
 #### Single-drone planning
 ![Path founded offline by Bi-RRT*](gif_videos/single.gif)
+*Path founded offline by Bi-RRTstar.*
+
 #### Multi-drone planning
 ![Path founded offline by Bi-RRT*, without Prioritized Planning, drone to drone collision happens](gif_videos/bad_multi.gif)
-![Path founded offline by Bi-RRT*, with Prioritized Planning](gif_videos/good_multi.gif)
+*Path founded offline by Bi-RRT star without Prioritized Planning, drone to drone collision happens.*
+![Path founded offline by Bi-RRT star with Prioritized Planning](gif_videos/good_multi.gif)
+*Path founded offline by Bi-RRT star with Prioritized Planning.*
 
 
