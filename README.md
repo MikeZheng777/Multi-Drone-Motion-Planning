@@ -15,8 +15,7 @@ pip3 install -e .
 ```
 
 ### Run Planning
-
-cd gym_pybullet_drones/run/
+```sh
 python3 gym_pybullet_drones/run/plan_and_control_single.py # multi drone planning
 python3 gym_pybullet_drones/run/plan_and_control_multi.py # multi drone planning without Prioritized Planning
 python3 gym_pybullet_drones/run/plan_and_control_multi_pp.py # multi drone planning with Prioritized Planning
